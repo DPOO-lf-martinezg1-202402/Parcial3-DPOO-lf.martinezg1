@@ -92,7 +92,6 @@ public class FPrincipal extends JFrame implements ActionListener {
 		//crear nueva instancia de pLienzo con los datos que se tienen
 		if (this.textoR.getText() != "" && this.textoG.getText() != "" && this.textoB.getText() != "") {
 			this.pLienzo = new PLienzo(Integer.parseInt(this.textoR.getText()), Integer.parseInt(this.textoG.getText()), Integer.parseInt(this.textoB.getText()), botonOprimido.getText());
-			//this.pLienzo.update();
 			this.add(this.pLienzo, BorderLayout.CENTER);
 		}
 		

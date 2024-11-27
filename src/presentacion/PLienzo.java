@@ -35,14 +35,13 @@ public class PLienzo extends JPanel {
 	
 	
 	public PLienzo(int valorR, int valorG, int valorB, String textoBoton) {
+		repaint();
 		this.valorR = valorR;
 		this.valorG = valorG;
 		this.valorB = valorB;
 		this.textoBoton = textoBoton;
-	}
-
-	public void update() {
 		repaint();
 	}
+
 	
 }
